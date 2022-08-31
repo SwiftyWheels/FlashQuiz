@@ -87,9 +87,7 @@ public class FileHandlerServiceImpl implements FileHandlerService {
     public List<File> getFilesFromPath(String pathName) {
         List<File> fileList = new ArrayList<>();
         File folder = new File(pathName);
-        System.out.println(folder.getAbsolutePath());
         if (folder.isDirectory()) {
-            System.out.println("is directory");
             File[] files = folder.listFiles();
             if (files != null) {
                 for (File file : files) {
