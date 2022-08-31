@@ -1,0 +1,16 @@
+Is Java pass by value or pass by reference?@@@pass by value
+What's the difference between constructors and other methods?@@@Constructors must have the same name as the class and can not return a value. They are only called once while regular methods could be called many times.
+Can you call one constructor from another if a class has multiple constructors?@@@Yes. Use this() syntax.
+Create a String array "cars" containing "Volvo" and "BMW".@@@String[] cars = {"Volvo", "BMW"};
+Create an empty int array named "intArray".@@@int[] intArray;
+Create an int array named "intArray" with a size of "20".@@@int[] intArray = new int[20];
+Create an empty String array with variable name cars@@@String[] cars;
+Inheritance: In the Java programming language, each class is allowed to have one direct (?), and each (?) has the potential for an unlimited number of (?).@@@superclass, superclass, subclass
+List all primitive data types.@@@int, byte, short, long, float, double, boolean, char
+Create an int array named "intArray" containing "10", "20", "30", "40".@@@int[] intArray = {10, 20, 30, 40};
+Why is Java so successful?@@@Develop once run everywhere
+Java source code is compiled by the (?) into Java (?)@@@Java compiler, Bytecode
+What kind of relationship is this? ClassA contains more than one ClassB ClassB contains more than one ClassA E.g. Album has many Songs Song can apart of many Albums@@@Many-To-Many Association Relationship
+What is a common way of creating an association relationship?@@@Creating a "bridge" class Course class represents Courses taken by Students and taught by Professors Both com.patrickhogg.main.objects.Student and Professors each contain an instance variable representing the list of Course objects being taken/taught
+In a Dependency relationship, what is the class being used called?@@@Supplier
+In a Dependency relationship, what is the class using the other class called?@@@Client What is a Dependency relationship sometimes called?
